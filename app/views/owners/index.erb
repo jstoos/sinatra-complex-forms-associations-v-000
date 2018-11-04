@@ -1,2 +1,4 @@
 index.erb
-<%=@owners%>
+<%@owners each do |owner|%>
+<%=owner%>
+  <%end%>
